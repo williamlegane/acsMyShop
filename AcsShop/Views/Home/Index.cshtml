@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Home Page</h2>
+<div class="row">
+    <div class="col-sm-4">
+        <button class="btn btn-lg">
+            <span class="glyphicon glyphicon-barcode"></span><br/>
+            @Html.ActionLink("Terminals", "", "Terminals", new { area = "" }, new { @class = "" })
+        </button>
+        <button class="btn btn-lg">
+            <span class="glyphicon glyphicon-user"></span><br/>
+            @Html.ActionLink("Profile", "", "Profile", new { area = "" }, new { @class = "" })
+        </button>
+    </div>
+</div>
+
+
